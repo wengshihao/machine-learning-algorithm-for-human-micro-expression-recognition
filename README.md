@@ -1,4 +1,4 @@
-# Machine-Learning-Algorithm-for-Human-Micro-Expression-Recognition
+# Machine Learning Algorithm for Human Micro-Expression Recognition
 Code of My Undergraduate Thesis in [School of AI&CS, JNU](http://ai.jiangnan.edu.cn/) supervised by [Heng-Yang Lu](http://iip.nju.edu.cn/index.php/Luhy)
 ## 1. Four dilemmas in micro-expression recognition
 **No.1** Face diversity dilemma, specifically refers to the human face of different individuals, facial differences and different posture of the problem.
