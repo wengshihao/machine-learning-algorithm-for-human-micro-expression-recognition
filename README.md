@@ -81,8 +81,10 @@ res=get_ep_features(frames, uniform_dict=get_uniform_dict(uniform_path), feature
 
 ## 6. Model training
 The SVM classifier is trained by the Leave-One-Out cross validation method using the obtained features above.
+
 **This code is easy to implement, so it's not open source here**
-The final accuracy on CASMEII is about *50.8%*
+
+The final accuracy on CASME II dataset is about *50.8%*
 
 ## 7. The solution to the "Human-machine collaboration" dilemma
 
