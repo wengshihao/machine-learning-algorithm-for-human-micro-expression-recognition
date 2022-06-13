@@ -36,7 +36,7 @@ if __name__ == "__main__":
     savepath='mag.mp4'
 ```
 
-**You can also learn *Euler Video Magnification algorithm* by [Visit This Page](https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb) which is a Homework Assignment in **CMU**.**
+**You can also learn the detail of *Euler Video Magnification algorithm* by [Visit This Page](https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb) which is a Homework Assignment in **CMU**.**
 
 ## 4. The solution to the behavior transience dilemma
 In view of dilemma 3, that is, the short duration caused by the brevity of micro-expressions, my paper uses *Time-domain Interpolation algorithm* to restore the high-dimensional curve of realistic micro-expressions through the existing video frames, and carries out more intensive resamplings on this curve to improve the frame number of micro-expressions.
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 res = tim.run(frames[5:51], 85)
 ```
 
-**You can also learn *Time-domain Interpolation algorithm* by read [This Paper](https://readpaper.com/pdf-annotate/note?noteId=668667091142946816&pdfId=668666968103038976) which is from CVPR2011.**
+**You can also learn the detail of *Time-domain Interpolation algorithm* by read [This Paper](https://readpaper.com/pdf-annotate/note?noteId=668667091142946816&pdfId=668666968103038976) which is from CVPR2011.**
 
 ## 5. Feature extraction
 In my paper, LBP-TOP feature extraction algorithm is used for feature extraction of the microexpression video after the above processing.
@@ -69,5 +69,7 @@ if __name__ == "__main__":
     videopath='EP18_01.avi'
     savepath='tim.mp4'
 ```
+
+**You can also learn the detail of *LBP-TOP feature extraction algorithm* by read [This Paper](https://readpaper.com/pdf-annotate/note?noteId=676365331706761216&pdfId=4531198178820251649) which is from IEEE Transactions on Pattern Analysis and Machine Intelligence 2007.**
 
 
