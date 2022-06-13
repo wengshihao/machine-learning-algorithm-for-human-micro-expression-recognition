@@ -15,7 +15,7 @@ Small enough to be difficult to detect.
    
 $\color{red}{LWM.py}$ is an implementation of the above text.
 
-**You can run this code by setting the following parameters in the main function:**
+**You can run this code by setting the following parameters in the *main* function:**
 ```python
 if __name__ == "__main__":
     #parameters
@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
 $\color{red}{EVM.py}$ is an implementation of the above text.
 
-**You can run this code by setting the following parameters in the main function:**
+**You can run this code by setting the following parameters in the *main* function:**
 ```python
 if __name__ == "__main__":
     #parameters
@@ -43,12 +43,16 @@ In view of dilemma 3, that is, the short duration caused by the brevity of micro
 
 $\color{red}{TIM.py}$ is an implementation of the above text.
 
-**You can run this code by setting the following parameters in the main function:**
+**You can run this code by setting the following parameters in the *main* function:**
 ```python
 if __name__ == "__main__":
     #parameters
     videopath='EP18_01.avi'
     savepath='tim.mp4'
+```
+**You should adjust the frame interval in the *process* function for the specific video：**
+```python
+res = tim.run(frames[5:51], 85)
 ```
 
 **You can also learn *Time-domain Interpolation algorithm* by read [This Paper](https://readpaper.com/pdf-annotate/note?noteId=668667091142946816&pdfId=668666968103038976) which is from CVPR2011.**
@@ -56,7 +60,7 @@ if __name__ == "__main__":
 ## 5. Feature extraction
 In my paper, LBP-TOP feature extraction algorithm is used for feature extraction of the microexpression video after the above processing.
 
-$\color{red}{LBPTOP.py}$ is an implementation of the above text.
+$\color{red}{LBP_TOP.py}$ is an implementation of the above text.
 
 **You can run this code by setting the following parameters in the main function:**
 ```python
