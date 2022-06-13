@@ -15,7 +15,7 @@ Small enough to be difficult to detect.
    
 $\color{red}{LWM.py}$ is an implementation of the above text.
 **You can run this code by setting the following parameters in the main function:**
-```
+```python
     videopath='EP18_01.avi'
     standardfacepath='standardface.jpg'
     savepath='submit.mp4'
