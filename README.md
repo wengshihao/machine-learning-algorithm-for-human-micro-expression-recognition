@@ -79,4 +79,11 @@ res=get_ep_features(frames, uniform_dict=get_uniform_dict(uniform_path), feature
 
 **You can also learn the detail of *LBP-TOP feature extraction algorithm* by read [This Paper](https://readpaper.com/pdf-annotate/note?noteId=676365331706761216&pdfId=4531198178820251649) which is from IEEE Transactions on Pattern Analysis and Machine Intelligence 2007.**
 
+## 6. Model training
+The SVM classifier is trained by the Leave-One-Out cross validation method using the obtained features above.
+**This code is easy to implement, so it's not open source here**
+The final accuracy on CASMEII is about *50.8%*
+
+## 7. The solution to the "Human-machine collaboration" dilemma
+
 
