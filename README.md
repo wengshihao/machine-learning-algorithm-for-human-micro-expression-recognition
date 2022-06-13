@@ -67,8 +67,10 @@ $\color{red}{LBPTOP.py}$ is an implementation of the above text.
 if __name__ == "__main__":
     #parameters
     videopath='EP18_01.avi'
-    savepath='tim.mp4'
+    uniform_path = 'UniformLBP8.txt'
+    savepath = 'feature.npy'
 ```
+*UniformLBP8.txt* is a compression method of LBP that you can find online
 
 **You can also learn the detail of *LBP-TOP feature extraction algorithm* by read [This Paper](https://readpaper.com/pdf-annotate/note?noteId=676365331706761216&pdfId=4531198178820251649) which is from IEEE Transactions on Pattern Analysis and Machine Intelligence 2007.**
 
