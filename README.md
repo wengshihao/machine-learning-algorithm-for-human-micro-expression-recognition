@@ -90,7 +90,7 @@ The final accuracy on CASME II dataset is about *50.8%*
 **This is a subject I am currently working on for my master's degree, and I am not going to release the method and source code here because it is not perfect**
 
 ## Appendix
-I want to thank the [open source code](https://github.com/zbxytx/Multi_feature_MER) & my supervisor [Heng-Yang Lu](http://iip.nju.edu.cn/index.php/Luhy) for the contribution to this project
+I want to thank the [open source code](https://github.com/zbxytx/Multi_feature_MER) & my supervisor [Heng-Yang Lu](http://iip.nju.edu.cn/index.php/Luhy) for the contribution to this Code
 
 ***You can contact me if you have any questions by e-mail: weng_shihao@163.com***
 
