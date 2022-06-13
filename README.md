@@ -36,5 +36,6 @@ if __name__ == "__main__":
     savepath='mag.mp4'
 ```
 
-You can also learn *Euler Video Magnification algorithm* by [Visit This Page](https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb) which is a Homework Assignment in **CMU**.
+**You can also learn *Euler Video Magnification algorithm* by [Visit This Page](https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb) which is a Homework Assignment in **CMU**.**
+
 
