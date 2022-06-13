@@ -60,7 +60,7 @@ res = tim.run(frames[5:51], 85)
 ## 5. Feature extraction
 In my paper, LBP-TOP feature extraction algorithm is used for feature extraction of the microexpression video after the above processing.
 
-$\color{red}{LBP_TOP.py}$ is an implementation of the above text.
+$\color{red}{LBP\_TOP.py}$ is an implementation of the above text.
 
 **You can run this code by setting the following parameters in the main function:**
 ```python
