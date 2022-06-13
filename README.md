@@ -14,4 +14,10 @@ Small enough to be difficult to detect.
    Aiming at the problem of different poses, this paper uses affine transform to affine align the picture face and perform preliminary clipping, and get the face micro-expression video with correct pose and proper proportion. Aiming at the difference of individual face shape and facial features, this paper uses LWM face registration algorithm to adjust the pixels of local areas of key points of face, so that all faces in the dataset are as similar as possible to the selected model face in face shape and facial features position.
    
 $\color{red}{LWM.py}$ is an implementation of the above text
+**You can run this code by setting the following parameters in the main function:**
+'''
+    videopath='EP18_01.avi'
+    standardfacepath='standardface.jpg'
+    savepath='submit.mp4'
+'''
 
