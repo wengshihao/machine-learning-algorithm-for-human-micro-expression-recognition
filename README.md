@@ -72,6 +72,11 @@ if __name__ == "__main__":
 ```
 *UniformLBP8.txt* is a compression method of LBP that you can find online
 
+**You should adjust the LBP-TOP triorthogonal plane-partitioning scheme in the *process* function for different situations：**
+```python
+res=get_ep_features(frames, uniform_dict=get_uniform_dict(uniform_path), feature='LBP-TOP',t_times=2, x_times=2, y_times=2)
+```
+
 **You can also learn the detail of *LBP-TOP feature extraction algorithm* by read [This Paper](https://readpaper.com/pdf-annotate/note?noteId=676365331706761216&pdfId=4531198178820251649) which is from IEEE Transactions on Pattern Analysis and Machine Intelligence 2007.**
 
 
