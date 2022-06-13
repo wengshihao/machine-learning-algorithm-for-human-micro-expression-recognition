@@ -39,7 +39,7 @@ if __name__ == "__main__":
 **You can also learn *Euler Video Magnification algorithm* by [Visit This Page](https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb) which is a Homework Assignment in **CMU**.**
 
 ## 4. The solution to the behavior transience dilemma
-In view of dilemma 3, that is, the short duration caused by the brevity of micro-expressions, this paper uses time-domain interpolation algorithm to restore the high-dimensional curve of realistic micro-expressions through the existing video frames, and carries out more intensive resamplings on this curve to improve the frame number of micro-expressions.
+In view of dilemma 3, that is, the short duration caused by the brevity of micro-expressions, this paper uses *Time-domain Interpolation algorithm* to restore the high-dimensional curve of realistic micro-expressions through the existing video frames, and carries out more intensive resamplings on this curve to improve the frame number of micro-expressions.
 
 $\color{red}{TIM.py}$ is an implementation of the above text.
 
@@ -50,5 +50,7 @@ if __name__ == "__main__":
     videopath='EP18_01.avi'
     savepath='tim.mp4'
 ```
+
+**You can also learn *Time-domain Interpolation algorithm* by read [This Paper]([https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb](https://readpaper.com/pdf-annotate/note?noteId=668667091142946816&pdfId=668666968103038976)) which is from CVPR2011.**
 
 
