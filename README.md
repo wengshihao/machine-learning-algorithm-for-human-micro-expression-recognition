@@ -51,6 +51,6 @@ if __name__ == "__main__":
     savepath='tim.mp4'
 ```
 
-**You can also learn *Time-domain Interpolation algorithm* by read [This Paper]([https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb](https://readpaper.com/pdf-annotate/note?noteId=668667091142946816&pdfId=668666968103038976)) which is from CVPR2011.**
+**You can also learn *Time-domain Interpolation algorithm* by read [This Paper](https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb](https://readpaper.com/pdf-annotate/note?noteId=668667091142946816&pdfId=668666968103038976) which is from CVPR2011.**
 
 
