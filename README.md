@@ -17,6 +17,21 @@ $\color{red}{LWM.py}$ is an implementation of the above text.
 
 **You can run this code by setting the following parameters in the main function:**
 ```python
+if __name__ == "__main__":
+    #parameters
+    videopath='EP18_01.avi'
+    standardfacepath='standardface.jpg'
+    savepath='submit.mp4'
+```
+## 3. The solution to the behavioral spontaneity dilemma
+   For dilemma 2, that is, the spontaneity of micro-expressions leads to problems of small amplitude and difficult to detect. In this paper, euler image magnification algorithm is used to filter micro-expression action signals on the Pyramid of Laplace and then magnify and synthesize the strategy to achieve the required action magnification effect.
+
+$\color{red}{LWM.py}$ is an implementation of the above text.
+
+**You can run this code by setting the following parameters in the main function:**
+```python
+if __name__ == "__main__":
+    #parameters
     videopath='EP18_01.avi'
     standardfacepath='standardface.jpg'
     savepath='submit.mp4'
