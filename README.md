@@ -6,7 +6,7 @@ Code of My Undergraduate Thesis in [School of AI&CS, JNU](http://ai.jiangnan.edu
 **No.2** Behavioral spontaneity dilemma, specifically refers to the micro-expression of human uncontrolled spontaneous behavior, resulting in the amplitude
 Small enough to be difficult to detect.
 
-**No.3** Transient dilemma, it refers to the problem of short duration of micro-expression (0.04s ~ 0.3s).
+**No.3** Behavior transience dilemma, it refers to the problem of short duration of micro-expression (0.04s ~ 0.3s).
 
 **No.4** "Human-machine collaboration" dilemma, specifically refers to the high time cost and low efficiency of manually rechecking each micro-expression recognized by the computer.
 
@@ -37,5 +37,18 @@ if __name__ == "__main__":
 ```
 
 **You can also learn *Euler Video Magnification algorithm* by [Visit This Page](https://nbviewer.org/github/yourwanghao/CMUComputationalPhotography/blob/master/class7/notebook7.ipynb) which is a Homework Assignment in **CMU**.**
+
+## 4. The solution to the behavior transience dilemma
+In view of dilemma 3, that is, the short duration caused by the brevity of micro-expressions, this paper uses time-domain interpolation algorithm to restore the high-dimensional curve of realistic micro-expressions through the existing video frames, and carries out more intensive resamplings on this curve to improve the frame number of micro-expressions.
+
+$\color{red}{TIM.py}$ is an implementation of the above text.
+
+**You can run this code by setting the following parameters in the main function:**
+```python
+if __name__ == "__main__":
+    #parameters
+    videopath='EP18_01.avi'
+    savepath='tim.mp4'
+```
 
 
