@@ -87,5 +87,10 @@ The SVM classifier is trained by the Leave-One-Out cross validation method using
 The final accuracy on CASME II dataset is about *50.8%*
 
 ## 7. The solution to the "Human-machine collaboration" dilemma
+**This is a topic I am currently working on for my master's degree, and I am not going to expose the method and source code here because it is not perfect**
 
+## Appendix
+I want to thank the [open source code](https://github.com/zbxytx/Multi_feature_MER) & my supervisor [Heng-Yang Lu](http://iip.nju.edu.cn/index.php/Luhy) for the contribution to this project
+
+**You can contact me if you have any questions by e-mail: weng_shihao@163.com**
 
