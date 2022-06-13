@@ -12,5 +12,6 @@ Small enough to be difficult to detect.
 
 ## 2. The solution to the face diversity dilemma
    Aiming at the problem of different poses, this paper uses affine transform to affine align the picture face and perform preliminary clipping, and get the face micro-expression video with correct pose and proper proportion. Aiming at the difference of individual face shape and facial features, this paper uses LWM face registration algorithm to adjust the pixels of local areas of key points of face, so that all faces in the dataset are as similar as possible to the selected model face in face shape and facial features position.
-
+   
+<font face="微软雅黑" size=6 color=#FF0000 >微软雅黑字体</font>
 <font color=#FF0000 > **LWM.py is an implementation of the above text** </font>
